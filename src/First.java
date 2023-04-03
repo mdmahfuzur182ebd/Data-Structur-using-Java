@@ -6,7 +6,7 @@ public class First {
         String s = sc.nextLine();
         int n = Integer.parseInt(s);
         for(int i=0;i<n;i++){
-            String S[] = sc.nextLine().split(" ");
+            String[] S = sc.nextLine().split(" ");
             try{
                 double a = Double.parseDouble(S[0]);
                 double b = Double.parseDouble(S[1]);
